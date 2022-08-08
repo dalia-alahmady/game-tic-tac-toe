@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tic-tac-toe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <!--title-->
+  <div class="title">
+    <h1>Tic Tac Toe</h1>
+  </div>
+
+  <!--player-->
+  <div class="display-player">
+    <p> player <span class="playerX">X</span> turn </p>
+  </div>
+
+  <!--tiles-->
+  <div class="game" id="container">
+
+    <div id="item1" class="tile" onclick="game(this.id)"></div>
+    <div id="item2" class="tile" onclick="game(this.id)"></div>
+    <div id="item3" class="tile" onclick="game(this.id)"></div>
+
+    <div id="item4" class="tile" onclick="game(this.id)"></div>
+    <div id="item5" class="tile" onclick="game(this.id)"></div>
+    <div id="item6" class="tile" onclick="game(this.id)"></div>
+
+    <div id="item7" class="tile" onclick="game(this.id)"></div>
+    <div id="item8" class="tile" onclick="game(this.id)"></div>
+    <div id="item9" class="tile" onclick="game(this.id)"></div>
+  </div>
+
+
+  <!--reset-->
+  <div>
+   <a href="index.html"><button class="btn">reset game</button></a>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
